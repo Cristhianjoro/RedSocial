@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Contenedor principal del feed */
+.feed-container {
+    width: 600px;
+    background-color: #f9f9f9;
+    
+}
+
+/* Publicación */
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Encabezado de la publicación */
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+.user-info p {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* Contenido de la publicación */
+.post-content {
+    padding: 15px;
+}
+
+.post-content p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Acciones de la publicación */
+.post-actions {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: #4267B2;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.post-actions button:hover {
+    color: #365899;
+}
